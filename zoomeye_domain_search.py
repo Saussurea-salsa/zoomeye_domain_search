@@ -3,7 +3,7 @@ import requests
 
 def zoomeye_domain_search(domian):
     headers = {
-        'API-KEY': 'BC7145EF-5115-f4875-2eb1-59e9c898bd5'
+        'API-KEY': '你的API-KEY'
     }
     page = 1  # 初始化page值为1
     domain_list = []  # 用于存储每页的子域名
